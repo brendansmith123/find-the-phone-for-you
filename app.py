@@ -27,3 +27,8 @@ def samsung():
 def google():
     '''return homepage'''
     return render_template('google.html', phones=phones.find())
+
+@app.route('/cart',)
+def cart():
+    '''return homepage'''
+    return render_template('cart.html', phones=phones.find())    

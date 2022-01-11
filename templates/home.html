@@ -2,13 +2,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://cdn.slashgear.com/wp-content/uploads/2021/09/iphone13-lineup.jpg" class="d-block w-100" alt="First Phone">
             <div class="carousel-caption d-none d-md-block">
-                <!--change to black-->
-              <h5>iPhone 13 Pro</h5>
             </div>
           </div>
           <div class="carousel-item">
@@ -33,11 +35,10 @@
             <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-family-select?wid=1880&hei=2224&fmt=jpeg&qlt=80&.v=1631306948000" class="card-img-top" alt="1st iPhone">
             <div class="card-body">
               <h5 class="card-title">iPhone 13 Pro</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">$999</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+        
           </div>
         </div>
         <div class="col">
@@ -45,11 +46,10 @@
             <img src="https://m.media-amazon.com/images/I/71ee+5V4ZRL._AC_SL1500_.jpg" class="card-img-top" alt="Pixel 6 pro">
             <div class="card-body">
               <h5 class="card-title">Pixel 6 Pro</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">$899</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-        
-            </div>
+            
           </div>
         </div>
         <div class="col">
@@ -57,11 +57,10 @@
             <img src="https://www.dpreview.com/files/p/articles/7947692462/X7-0_Pro__22.jpeg" class="card-img-top" alt="Vivo">
             <div class="card-body">
               <h5 class="card-title">Vivo X70 Pro+</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">$1,080</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+            
           </div>
         </div>
       </div>
@@ -73,11 +72,10 @@
             <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-gold-select?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1631652956000" class="card-img-top" alt="13 Pro Max">
             <div class="card-body">
               <h5 class="card-title">iPhone 13 Pro Max</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">$1,099</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+            
           </div>
         </div>
         <div class="col">
@@ -85,23 +83,21 @@
             <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-74840/samsunggalaxys21ultra5g.jpg" class="card-img-top" alt="S21">
             <div class="card-body">
               <h5 class="card-title">Samsung Galaxy S21 Ultra</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">$1,199</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-        
-            </div>
+            
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6466/6466001_sd.jpg" class="card-img-top" alt="Z fold 3">
+            <img src="https://image-us.samsung.com/us/smartphones/galaxy-z-fold3-5g/gallery/black/Gallery-Q2-MainKV_Foldunfold_Black-1600x1200.jpg?$product-details-jpg$" class="card-img-top" alt="Z fold 3">
             <div class="card-body">
               <h5 class="card-title">Samsung Galaxy Z Fold 3</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">$1,799</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+            
           </div>
         </div>
       </div>
@@ -113,11 +109,10 @@
             <img src="https://i5.walmartimages.com/asr/1268f6c5-47b1-4a36-abfc-7667b1b86a1f.2f57262c79016e584afc9e72a2b095b6.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" class="card-img-top" alt="13 pro maxx">
             <div class="card-body">
               <h5 class="card-title">iPhone 13 Pro Max</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">$1,099</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+            
           </div>
         </div>
         <div class="col">
@@ -125,11 +120,10 @@
             <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-72823/asusrogphone5-1024x768.jpg" class="card-img-top" alt="ROG">
             <div class="card-body">
               <h5 class="card-title">ROG Phone 5</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">$660</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-        
-            </div>
+
           </div>
         </div>
         <div class="col">
@@ -137,11 +131,10 @@
             <img src="https://m.media-amazon.com/images/I/81AT+Flc+EL._AC_SL1500_.jpg" class="card-img-top" alt="Note 20">
             <div class="card-body">
               <h5 class="card-title">Samsung Galaxy Note 20</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">$1,199</p>
+              <button>Add To Cart</button>
             </div>
-            <div class="card-footer">
-              
-            </div>
+
           </div>
         </div>
       </div>
