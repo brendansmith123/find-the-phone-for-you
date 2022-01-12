@@ -9,3 +9,4 @@ This website uses phones that have recently been released and are put into categ
 </ul>
 
 # Bootstrap Used for Nav Off Canvas
+![Jan-12-2022 07-53-30](https://user-images.githubusercontent.com/92564077/149153833-8181b5bf-82b6-4d9a-892c-b577d9e89d25.gif)
